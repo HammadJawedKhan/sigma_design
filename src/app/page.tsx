@@ -7,7 +7,7 @@ import img3 from "../../public/Group 79.png"
 export default function page() {
   return (
     <div className='m-10 '>
-      <div className='block justify-center sm:flex sm:justify-around'>
+      <div className='block justify-center sm:flex sm:justify-around sm:gap-6'>
       <div className=''>
         <h1 className='font-light text-5xl text-stone-400 mt-64 ml-14'>Project</h1>
         <h2 className='font-extrabold text-5xl mt-3 ml-14'>lorem</h2>
@@ -17,24 +17,24 @@ export default function page() {
       </div>
         </div>
        
-       <div className=' lg:ml-14 mt-14'>
-       <h1 className='flex flex-wrap font-light text-4xl mt-24 sm:text-5xl text-stone-200  ml-14'>Main Focus/Mission Statement</h1>
+       <div className='mt-14 lg:ml-14'>
+       <h1 className='flex flex-wrap font-light text-4xl mt-44 sm:text-5xl text-stone-200  ml-14'>Main Focus/Mission Statement</h1>
       </div>
       
-       <div className='block mt-10 sm:block md:flex sm:ml- '>
+       <div className='block mt3 gap-28 sm:block md:flex sm:ml-28 '>
     
-       <div className='block items-center h-96 justify-center border-2  sm:pb-10 sm:pt-10 sm:flex w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
+       <div className='block items-center h-96 justify-center sm:pb-10 sm:pt-10 sm:flex w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
         
        <h1 className='font-bold ml-24 sm:ml-5 text-[180px] text-stone-200'>1</h1>
-        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10 border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
+        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
            </p>
   
       </div>
     
-       <div className='block items-center h-96 justify-center border-2  sm:pb-10 sm:pt-10 sm:flex sm:justify-center w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
+       <div className='block items-center h-96 justify-center sm:pb-10 sm:pt-10 sm:flex sm:justify-center w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
         
        <h1 className='font-bold ml-24 sm:ml-5 text-[180px] text-stone-200'>2</h1>
-        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10 border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
+        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
            </p>
   
       </div>
