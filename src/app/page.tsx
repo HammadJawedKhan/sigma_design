@@ -6,45 +6,42 @@ import img2 from "../../public/Group 20.png"
 import img3 from "../../public/Group 79.png"
 export default function page() {
   return (
-    <div className='m-10'>
-      <div className='flex justify-center gap-72'>
-      <div>
+    <div className='m-10 '>
+      <div className='block justify-center sm:flex sm:justify-around'>
+      <div className=''>
         <h1 className='font-light text-5xl text-stone-400 mt-64 ml-14'>Project</h1>
         <h2 className='font-extrabold text-5xl mt-3 ml-14'>lorem</h2>
       </div>
-          <div className='flex justify-items-end'>
+          <div className='relative top-20'>
         <Image src={img} alt='' />  
       </div>
         </div>
        
-       <div className='md:mr-14 md:ml-14 mt-14'>
-        <div>
-          <div>2
-            <div>p</div>
-            <div>p</div>
-          </div>
-          <div>c</div>
-        </div>
-       </div>
        <div className=' lg:ml-14 mt-14'>
-       <h1 className='font-light text-5xl text-stone-200 mt-5 ml-14'>Main Focus/Mission Statement</h1>
-       <div className='block sm:flex sm:gap-16'>
-       <div className='flex justify-center '>
-       <h1 className='font-bold text-[200px] text-stone-200 lg:ml-14'>1</h1>
+       <h1 className='flex flex-wrap font-light text-4xl mt-24 sm:text-5xl text-stone-200  ml-14'>Main Focus/Mission Statement</h1>
+      </div>
+      
+       <div className='block mt-10 sm:block md:flex sm:ml- '>
+    
+       <div className='block items-center h-96 justify-center border-2  sm:pb-10 sm:pt-10 sm:flex w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
         
-        <div className=' sm:block sm:w-64 ml-10 '>
-        <p className="mt-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni, </p>
-        </div>
+       <h1 className='font-bold ml-24 sm:ml-5 text-[180px] text-stone-200'>1</h1>
+        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10 border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
+           </p>
+  
       </div>
-      <div className='flex justify-center'>
-       <h1 className='font-bold text-[200px] text-stone-200  lg:ml-36'>2</h1>
+    
+       <div className='block items-center h-96 justify-center border-2  sm:pb-10 sm:pt-10 sm:flex sm:justify-center w-80 sm:w-[400px] md:w-[500px] sm:h-60 md:justify-evenly'>
         
-        <div className=' sm:block sm:w-64 ml-10 '>
-        <p className="mt-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni, </p>
-        </div>
+       <h1 className='font-bold ml-24 sm:ml-5 text-[180px] text-stone-200'>2</h1>
+        <p className="items-center ml-5 w-72 sm:w-96 md:w-96 mb-10 border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus exercitationem magni,Lorem ipsum dolor,
+           </p>
+  
       </div>
+
       </div>
-      </div>
+      
+
        <div className='mt-14'>
        <h1 className='font-light text-3xl md:text-5xl text-gray-400 mt-5  lg:ml-24 '>
             our Project
@@ -59,21 +56,21 @@ export default function page() {
           </div>
           <div className='gap-y-3 sm:flex justify-center gap-5'>
             <div className='mt-5'>
-            <img className="w-[400px] h-[100px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]" 
+            <img className="w-[400px] h-[200px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]" 
              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxwkJBSabTrMjX8_jkWp2eu65RszRSttnMfQ&s" alt="" />
             </div>
             <div className='mt-5'>
-            <img className="w-[400px] h-[100px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]"
+            <img className="w-[400px] h-[200px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]"
              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQM6z80u1Poo9KUfwAc6gJRqa52fV8LX9qw&s" alt="" />
              </div>
              <div className='mt-5'>
-             <img className="w-[400px] h-[100px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]"
+             <img className="w-[400px] h-[200px] sm:w-[350px] sm:h-[200px] md:w-[400px] md:h-[200px]"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_h0ieEID48wL49v0tnGq26bT3ymnMx5bXQ&s" alt=""/>
              </div>
           </div>
        </div>
-       <div>
-       <h1 className='font-light text-3xl md:text-5xl text-gray-400 mt-5  lg:ml-36 '>
+       <div className='mt-8'>
+       <h1 className='font-light text-3xl md:text-5xl text-gray-400 sm:mt-5  lg:ml-36 '>
               Contact Us
             </h1>
        <div className="hero mt-10  ">

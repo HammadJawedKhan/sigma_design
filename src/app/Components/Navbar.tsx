@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar overflow-x-hidden overflow-y-hidden bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           {/* Mobile Hamburger Menu */}
